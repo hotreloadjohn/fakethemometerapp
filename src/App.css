@@ -14,19 +14,44 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-bottom: 50px;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.imgdisplay{
+  margin-top: 400px;
+}
+.takebtnOff {
+  background: grey;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 160px;
+  border: 0;
+  outline:none;
+}
+
+.takebtnOn {
+  background: #44aaff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 160px;
+  border: 0;
+}
+
+.takebtnOn::focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
 
 @keyframes App-logo-spin {
   from {
